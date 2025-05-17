@@ -108,7 +108,7 @@ async function start() {
         if (initialConnection) {
           console.log(_0x4b0fc4.green("CHATWISE CONNECTED SUCCESSFULLY ✅"));
           _0x76bf4.sendMessage(_0x76bf4.user.id, {
-            'text': "╭─────────────━┈⊷\n│ CHATWISE IS CONNECTED *\n╰─────────────━┈⊷\n\n╭─────────────━┈⊷\n│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *chatwise*\n│👨‍💻 ᴏᴡɴᴇʀ : *Sarkar Bandaheali*\n╰─────────────━┈⊷\n\n*Message Me on whatsapp 😈*\n_https://wa.me/923253617422_"
+            'text': "╭─────────────━┈⊷\n│ CHATWISE IS CONNECTED *\n╰─────────────━┈⊷\n\n╭─────────────━┈⊷\n│💬 ʙᴏᴛ ɴᴀᴍᴇ: *chatwise*\n│🗨️ ᴏᴡɴᴇʀ : *chatwise*\n╰─────────────━┈⊷\n\n*Message Me on whatsapp 💭*\n_https://wa.me/254717263689_"
           });
           initialConnection = false;
         } else {
