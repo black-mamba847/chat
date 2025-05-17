@@ -1,9 +1,9 @@
 {
-  "name": "Sarkar-MD",
-  "description": "I am SARKAR-MD — A Premium WhatsApp MultiDevice Bot built in NodeJs with enhanced features and VIP experience.",
-  "logo": "https://files.catbox.moe/2zmfin.jpg",
-  "keywords": ["SARKAR-MD", "VIP", "WhatsApp Bot", "MultiDevice", "NodeJs"],
-  "repository": "https://github.com/Sarkar-Bandaheali/Sarkar-MD",
+  "name": "Chatwise",
+  "description": "I am chatwise — A Premium WhatsApp MultiDevice Bot built in NodeJs with enhanced features and VIP experience.",
+  "logo": "https://files.catbox.moe/b5c1l0.jpg",
+  "keywords": ["chatwise", "VIP", "WhatsApp Bot", "MultiDevice", "NodeJs"],
+  "repository": "https://github.com/black-mamba847/chat",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -29,12 +29,12 @@
     "OWNER_NAME": {
       "description": "Name shown in replies",
       "required": true,
-      "value": "SARKAR"
+      "value": "CHATWISE"
     },
     "OWNER_NUMBER": {
       "description": "Owner number with country code",
       "required": true,
-      "value": "923253617422"
+      "value": "254717263689"
     },
     "REJECT_CALL": {
       "description": "Bot will auto-reject calls if true",
