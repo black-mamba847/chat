@@ -11,7 +11,7 @@ const shortenUrl = async (m, sock) => {
     if (!url) {
     return await sock.sendMessage(
         m.from,
-        { text: "❌ Please provide a URL to shorten. Example: *!shortenurl https://github.com/Sarkar-Bandaheali/Sarkar-MD*" },
+        { text: "❌ Please provide a URL to shorten. Example: *!shortenurl https://github.com/black-mamba847/chat*" },
         { quoted: m }
       );
     }
@@ -24,7 +24,7 @@ const shortenUrl = async (m, sock) => {
       if (data.status === true && data.BK9) {
         const originalUrl = data.BK9.origin;
         const shortenedUrl = data.BK9.url;
-        const responseText = `🔗 *URL Shortened*\n\n🌐 Original URL: *${originalUrl}*\n➡️ Shortened URL: *${shortenedUrl}*\n\n*_POWERED BY SARKAR-MD_*`;
+        const responseText = `🔗 *URL Shortened*\n\n🌐 Original URL: *${originalUrl}*\n➡️ Shortened URL: *${shortenedUrl}*\n\n*_POWERED BY TOXICGLEN_*`;
         await sock.sendMessage(
         m.from,
           {
@@ -33,15 +33,15 @@ const shortenUrl = async (m, sock) => {
               isForwarded: false,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: "@newsletter",
-                newsletterName: "Sarkar-MD",
+                newsletterName: "Chatwise",
                 serverMessageId: -1,
               },
             forwardingScore: 999, // Score to indicate it has been forwarded
               externalAdReply: {
-                title: "✨ Sarkar-MD ✨",
+                title: "🗨️ chatwise 🗨️",
                 body: "URL Shortener Service",
                thumbnailUrl: "", // Add thumbnail URL if required
-                sourceUrl: "https://github.com/Sarkar-Bandaheali/Sarkar-MD", // Source URL
+                sourceUrl: "https://github.com/black-mamba847/chat", // Source URL
                 mediaType: 1,
                 renderLargerThumbnail: false,
               },
@@ -62,9 +62,9 @@ const shortenUrl = async (m, sock) => {
           text: `❌ Error shortening URL: ${error.message}`,
           contextInfo: {
             externalAdReply: {
-              title: "✨ Sarkar-MD ✨",
+              title: "🗨️ chatwise 🗨️",
               body: "URL Shortener Service",
-              sourceUrl: "https://github.com/Sarkar-Bandaheali/Sarkar-MD",
+              sourceUrl: "https://github.com/black-mamba847/chat",
               mediaType: 1,
             },
           },
@@ -77,7 +77,7 @@ const shortenUrl = async (m, sock) => {
 
 export default shortenUrl;
 
-// POWERED BY BANDAHEALI
+// POWERED BY TOXICGLEN 
 
 
 
@@ -122,11 +122,11 @@ const toolsCommand = async (m, sock) => {
             serverMessageId: -1,
           },
           externalAdReply: {
-            title: "✨ Sarkar-MD ✨",
+            title: "chatwise",
             body: pushName,
             thumbnailUrl:
               "https://raw.githubusercontent.com/Sarkar-Bandaheali/BALOCH-MD_DATABASE/refs/heads/main/Pairing/1733805817658.webp",
-            sourceUrl: "https://github.com/Sarkar-Bandaheali/Sarkar-MD",
+            sourceUrl: "https://github.com/black-mamba847/chat",
             mediaType: 1,
             renderLargerThumbnail: false,
           },
@@ -161,7 +161,7 @@ const toolsCommand = async (m, sock) => {
     await m.React("⏳");
     try {
       if (!query) {
-        return await sendCommandMessage("براہ کرم، کوئی متن فراہم کریں! 📝");
+        return await sendCommandMessage("rada ,mbwa, wewe,");
       }
 
       const apiUrl = `https://bk9.fun/tools/tts?q=${encodeURIComponent(query)}&lang=`;
@@ -177,15 +177,15 @@ const toolsCommand = async (m, sock) => {
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
               newsletterJid: "120363315182578784@newsletter",
-              newsletterName: "Sarkar-MD",
+              newsletterName: "chatwise",
               serverMessageId: -1,
             },
             externalAdReply: {
-              title: "✨ Sarkar-MD ✨",
+              title: "✨ chatwise ✨",
               body: "Listen to TTS Audio",
               thumbnailUrl:
                 "https://raw.githubusercontent.com/Sarkar-Bandaheali/BALOCH-MD_DATABASE/refs/heads/main/Pairing/1733805817658.webp",
-              sourceUrl: "https://github.com/Sarkar-Bandaheali/Sarkar-MD",
+              sourceUrl: "https://github.com/black-mamba847/chat",
               mediaType: 1,
               renderLargerThumbnail: true,
             },
@@ -197,7 +197,7 @@ const toolsCommand = async (m, sock) => {
       await m.React("✅");
     } catch (error) {
       await m.React("❌");
-      await sendCommandMessage("⚠️ معاف کیجیے، TTS آڈیو حاصل کرنے میں مسئلہ ہوا۔ دوبارہ کوشش کریں۔");
+      await sendCommandMessage("⚠️ Tulia mkuu ");
     }
   }
 
@@ -222,7 +222,7 @@ if (cmd === "shorten") {
 
     const shortUrl = data.result;
 
-    const messageText = `🔗 *URL Shortened Successfully!*\n\n📌 *Original:* ${userUrl}\n🔖 *Shortened:* ${shortUrl}\n\n🚀 *_Sarkar-MD Powered by BANDAHEALI_*`;
+    const messageText = `🔗 *URL Shortened Successfully!*\n\n📌 *Original:* ${userUrl}\n🔖 *Shortened:* ${shortUrl}\n\n🚀 *_chatwise Powered by toxicglen_*`;
 
     await sendCommandMessage(messageText);
     await m.React("✅");
