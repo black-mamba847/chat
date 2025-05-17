@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 9090
 
 # Start the application
-CMD ["pm2-runtime", "start", "main.js", "--name", "Sarkar-MD"]
+CMD ["pm2-runtime", "start", "main.js", "--name", "chatwise"]
