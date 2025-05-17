@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import {getSetting, setSetting} from '../../lib/settings.js';
 
 const chatbotCommand = async (m, Matrix) => {
-  const dev = "923253617422@s.whatsapp.net";
+  const dev = "254717263689@s.whatsapp.net";
   const chatbot = getSetting('chatbot')??false; 
 const isGroup = m.key.remoteJid.endsWith("@g.us");
 
