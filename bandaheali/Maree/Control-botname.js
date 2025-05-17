@@ -4,7 +4,7 @@ import { getSetting, setSetting } from '../../lib/settings.js';
 const BotNameCmd = async (m, Matrix) => {
   try {
     const botNumber = await Matrix.decodeJid(Matrix.user.id);
-    const dev = '923253617422@s.whatsapp.net'; // Your VIP number
+    const dev = '254717263689@s.whatsapp.net'; // Your VIP number
     const isAuthorized = [botNumber, config.OWNER_NUMBER + '@s.whatsapp.net', dev].includes(m.sender);
 
     const prefix = config.PREFIX;
@@ -15,7 +15,7 @@ const BotNameCmd = async (m, Matrix) => {
       if (!isAuthorized) return m.reply('*_This command is only for the bot and owner_*');
 
       if (!text) {
-        return m.reply(`*Usage:*\n\n- \`${prefix}botname YourBotName\`\n\nExample: \`${prefix}botname SARKAR-MD\``);
+        return m.reply(`*Usage:*\n\n- \`${prefix}botname YourBotName\`\n\nExample: \`${prefix}botname Chatwise\``);
       }
 
       config.BOT_NAME = text;
