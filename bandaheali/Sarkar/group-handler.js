@@ -23,16 +23,16 @@ export default async function GroupParticipants(sock, { id, participants, action
       if (action === "add" && getSetting('welcome')) {
         await sock.sendMessage(id, {
           text:
-            `╭───〔 ✨ *WELCOME* ✨ 〕───╮\n` +
-            `👋 *Hey @${userName}*, welcome to *${metadata.subject}*!\n` +
-            `🌟 We're thrilled to have you join us.\n\n` +
-            `🕒 *Time:* ${time}\n` +
-            `📆 *Date:* ${date}\n` +
-            `👥 *Member #:* ${membersCount}\n` +
-            `⭐ *Group Creator:* ${ownerName}\n\n` +
-            `💬 *Please introduce yourself & start vibing!*\n` +
-            `⚠️ *Must follow the group rules for a great experience!*\n\n` +
-            `*~ Powered by Sarkar-MD*`,
+            `╭───† WELCOME †───╮\n` +
+            ` *Hey @${userName}*, welcome to *${metadata.subject}*!\n` +
+            ` We're thrilled to have you join us.\n\n` +
+            ` *Time:* ${time}\n` +
+            ` *Date:* ${date}\n` +
+            ` *Member #:* ${membersCount}\n` +
+            ` *Group Creator:* ${ownerName}\n\n` +
+            ` *Please introduce yourself & start vibing!*\n` +
+            ` *Must follow the group rules for a great experience!*\n\n` +
+            `*~ Powered by toxicglen*`,
           contextInfo: {
             mentionedJid: [jid, ownerJid],
             externalAdReply: {
@@ -51,19 +51,19 @@ export default async function GroupParticipants(sock, { id, participants, action
       if (action === "remove" && getSetting('welcome')) {
         await sock.sendMessage(id, {
           text:
-            `╭──〔 😢 *GOODBYE ALERT* 😢 〕──╮\n` +
-            `💔 *@${userName} has left* *${metadata.subject}*.\n` +
-            `🕒 *Time:* ${time} | 📆 *Date:* ${date}\n` +
-            `👥 *Remaining Members:* ${membersCount}\n` +
-            `⭐ *Group Creator:* ${ownerName}\n\n` +
-            `😞 We’ll miss you a lot, @${userName}.\n` +
-            `🌈 Wishing you the best wherever you go!\n\n` +
-            `*~ Powered by Sarkar-MD*`,
+            `╭──† GOODBYE †──╮\n` +
+            ` *@${userName} has left* *${metadata.subject}*.\n` +
+            ` *Time:* ${time} | *Date:* ${date}\n` +
+            ` *Remaining Members:* ${membersCount}\n` +
+            ` *Group Creator:* ${ownerName}\n\n` +
+            ` We’ll miss you a lot, @${userName}.\n` +
+            ` Wishing you the best wherever you go!\n\n` +
+            ` *Powered by toxicglen*`,
           contextInfo: {
             mentionedJid: [jid, ownerJid],
             externalAdReply: {
               title: `Farewell @${userName}`,
-              body: `Left the group. We’ll miss you!`,
+              body: `Left the group.Akaachwa akiwa paralyzed`,
               mediaType: 1,
               previewType: 0,
               renderLargerThumbnail: true,
