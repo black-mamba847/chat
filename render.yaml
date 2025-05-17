@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: Sarkar-MD
+    name: chatwise 
     env: node
     plan: free
-    repo: https://github.com/Bandaheali/Sarkar-MD
+    repo: https://github.com/black-mamba847/chat
     branch: main
     buildCommand: npm install
     startCommand: npm start
