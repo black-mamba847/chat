@@ -1,5 +1,5 @@
 {
-    "bot-name": "Sarkar-MD",
+    "bot-name": "chatwise",
     "description": "Whiskey Sockets Baileys Whatsapp bot By Sarkar-MD",
     "logo": "https://camo.githubusercontent.com/65d08f57d7a263fb5aa73d04601b41fae5defd2ee7dd217e418258c350a18bcd/68747470733a2f2f66696c65732e636174626f782e6d6f652f6e74796770312e6a7067",
     "keywords": ["bot"],
@@ -28,13 +28,13 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "SARKAR-MD"
+      "value": "Chatwise"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923253617422"
+      "value": "254717263689"
 
     }, 
 
