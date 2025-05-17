@@ -49,14 +49,14 @@ if (!fs.existsSync(sessionDir)) {
 }
 
 async function downloadSessionData() {
-    console.log("Debugging SESSION_ID:", config.SESSION_ID);
+    console.log("DEBUGGING SESSION_ID:", config.SESSION_ID);
 
     if (!config.SESSION_ID) {
         console.error('Please add your session to SESSION_ID env !!');
         return false;
     }
 
-    const sessdata = config.SESSION_ID.split("Sarkar-MD~")[1];
+    const sessdata = config.SESSION_ID.split("CHATWISE")[1];
     if (!sessdata) {
         console.error('❌ Please set DROPBOX_SESSION_URL in your environment variables or config!');
         return false;
@@ -88,7 +88,7 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["JOEL-MD", "safari", "3.3"],
+            browser: ["CHATWISE", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -111,14 +111,14 @@ Matrix.ev.on('connection.update', (update) => {
             Matrix.sendMessage(Matrix.user.id, { 
                 image: { url: "https://files.catbox.moe/qc3td7.jpg" }, 
                 caption: `╭──────────────◆
-│     *SARKAR-MD IS ACTIVE AND READY*
+│     *CHATWISE IS ACTIVE AND READY*
 ├───────────────────────────────
-│ ✅ *STATUS      : ONLINE*
-│ ⚙️ *MODE        : ${config.MODE}*
-│ 🏷️ *PREFIX      : ${config.PREFIX}*
-│ 👀 *AUTO STATUS : ${config.AUTO_STATUS_SEEN}*
-│ 👑 *OWNER       : ${config.OWNER_NAME}*
-│ ☎️ *CONTACT     : wa.me/${dev}*
+│  *STATUS      : ONLINE*
+│  *MODE        : ${config.MODE}*
+│  *PREFIX      : ${config.PREFIX}*
+│  *AUTO STATUS : ${config.AUTO_STATUS_SEEN}*
+│  *OWNER       : ${config.OWNER_NAME}*
+│  *CONTACT     : wa.me/${dev}*
 ╰──────────────◆
 
 ╭──────────────◆
