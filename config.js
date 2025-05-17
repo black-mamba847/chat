@@ -14,9 +14,9 @@ const config = {
 
   PREFIX: getSetting('prefix') || process.env.PREFIX || '.',
 
-  OWNER_NUMBER: getSetting('ownernumber') || process.env.OWNER_NUMBER || '923253617422',
+  OWNER_NUMBER: getSetting('ownernumber') || process.env.OWNER_NUMBER || '254717263689',
 
-  OWNER_NAME: getSetting('ownerName') || process.env.OWNER_NAME || "©Bandaheali",
+  OWNER_NAME: getSetting('ownerName') || process.env.OWNER_NAME || "©toxic",
 
   WELCOME: toBool(getSetting('welcome') || process.env.WELCOME),
   CHAT_BOT: toBool(getSetting('chatbot') || process.env.CHAT_BOT),
@@ -32,8 +32,8 @@ const config = {
   PM_BLOCK: toBool(getSetting('pmblock') || process.env.PM_BLOCK),
   REJECT_CALL: toBool(getSetting('rejectCall') || process.env.REJECT_CALL),
   MODE: getSetting('mode') || process.env.MODE || 'public',
-  MENU_IMAGE: getSetting('menuimage') || process.env.MENU_IMAGE || 'https://files.catbox.moe/yd6y5b.jpg',
-  BOT_NAME: getSetting('botname') || process.env.BOT_NAME || "Sarkar-MD"
+  MENU_IMAGE: getSetting('menuimage') || process.env.MENU_IMAGE || 'https://files.catbox.moe/b5c1l0.jpg',
+  BOT_NAME: getSetting('botname') || process.env.BOT_NAME || "Chatwise"
   
 };
 
