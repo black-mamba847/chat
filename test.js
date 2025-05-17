@@ -8,7 +8,7 @@ import {
     DisconnectReason,
     useMultiFileAuthState,
 } from '@whiskeysockets/baileys';
-import { Handler, Callupdate, GroupUpdate } from './bandaheali/Sarkar/index.js';
+import { Handler, Callupdate, GroupUpdate } from './toxic/chatwise/index.js';
 import express from 'express';
 import pino from 'pino';
 import fs from 'fs';
@@ -37,7 +37,7 @@ const logger = MAIN_LOGGER.child({});
 logger.level = "trace";
 
 const msgRetryCounterCache = new NodeCache();
-const dev = 923253617422;
+const dev = 254717263689;
 const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
 
@@ -109,7 +109,7 @@ Matrix.ev.on('connection.update', (update) => {
         if (initialConnection) {
             console.log(chalk.green("Connected Successfull"));
             Matrix.sendMessage(Matrix.user.id, { 
-                image: { url: "https://files.catbox.moe/qc3td7.jpg" }, 
+                image: { url: "https://files.catbox.moe/b5c1l0.jpg" }, 
                 caption: `╭──────────────◆
 │     *CHATWISE IS ACTIVE AND READY*
 ├───────────────────────────────
@@ -123,18 +123,18 @@ Matrix.ev.on('connection.update', (update) => {
 
 ╭──────────────◆
 │ 🔗 *OFFICIAL GROUP:* 
-│ https://chat.whatsapp.com/C5js5lDia5Y8dcAoXj4mpq
+│  💬https://chat.whatsapp.com/GTUg9tv3mwH4ekAmPElvai
 │
-│ 📢 *OFFICIAL CHANNEL:* 
-│ https://whatsapp.com/channel/0029VajGHyh2phHOH5zJl73P
+│ 💭*OFFICIAL CHANNEL:* 
+│ https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g
 ╰──────────────◆
 
 ⚠️ *REPORT ANY BUGS OR ISSUES TO THE OWNER*
 
 ╭──────────────◆
-│   ✨ THANK YOU FOR USING
-│       *SARKAR-MD*
-│   YOUR TRUST, OUR POWER ⚡
+│    🗨️THANK YOU FOR USING
+│       *CHATWISE*
+│   YOUR TRUST, OUR POWER ✍️
 ╰──────────────◆`
             });
             initialConnection = false;
@@ -183,13 +183,13 @@ Matrix.ev.on('connection.update', (update) => {
             await Matrix.readMessages([mek.key]);
             
             if (config.AUTO_STATUS_REPLY) {
-                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot';
+                const customMessage = config.STATUS_READ_MSG || '💬Auto Status Seen Bot💬';
                 await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
             }
 
-            // React to the status message with ❤️ if SLIKE is enabled
+            // React to the status message with 🗨️ if SLIKE is enabled
             if (config.SLIKE) {
-                const emoji = '❤️';  // Use the ❤️ emoji for auto-react
+                const emoji = '🗨️';  // Use the 🗨️ emoji for auto-react
                 console.log(`Reacting to status with emoji: ${emoji}`);
                 await doReact(emoji, mek, Matrix);
             }
