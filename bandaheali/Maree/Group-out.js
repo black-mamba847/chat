@@ -9,7 +9,7 @@ const out = async (m, gss) => {
 
         if (cmd !== 'out') return;
         if (!m.isGroup) return m.reply("*🚫 This command only works in groups*");
-        if (!countryCode || isNaN(countryCode)) return m.reply("*⚠️ Please provide a valid country code*\nExample: .out 92");
+        if (!countryCode || isNaN(countryCode)) return m.reply("*⚠️ Please provide a valid country code*\nExample: .out 254");
 
         const botNumber = await gss.decodeJid(gss.user.id);
         const senderId = m.sender;
