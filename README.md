@@ -26,4 +26,4 @@
 <a href="https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g"><img title="Channel" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> 
   <a href="https://wa.me/254717263689"><img title="Chat" src="https://img.shields.io/badge/CHAT US-neon?style=for-the-badge&logo=whatsapp"></a>
 
-<a href="https://chat.whatsapp.com/GTUg9tv3mwH4ekAmPElvai"><img title="GROUP" src="https://img.shields.io/badge/GROUP-green?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://chat.whatsapp.com/GTUg9tv3mwH4ekAmPElvai"><img title="GROUP" src="https://img.shields.io/badge/GROUP-pink?style=for-the-badge&logo=whatsapp"></a>
