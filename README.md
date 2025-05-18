@@ -14,3 +14,15 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Chatwise&label=VISITORS&style=flat-square&color=0002FF" />
 </p>
+
+<p align="center">  
+  <a href="https://files.catbox.moe/qfuosa.jpg">
+    <img alt="secktor docs" height="300" src="https://files.catbox.moe/qfuosa.jpg">
+    <h1 align="center"> 
+    </h1>
+  </a>
+</p>
+
+<a href="https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g"><img title="Channel" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> 
+  <a href="https://wa.me/254717263689"><img title="Chat" src="https://img.shields.io/badge/CHAT US-neon?style=for-the-badge&logo=whatsapp"></a>
+</p>
