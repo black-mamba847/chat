@@ -11,7 +11,7 @@ const invite = async (m, gss) => {
     if (!validCommands.includes(cmd)) return;
     if (!m.isGroup) return m.reply("*🚫 THIS COMMAND CAN ONLY BE USED IN GROUPS*");
 
-    if (!text) return m.reply(`*📛 ENTER THE NUMBER YOU WANT TO ADD*\n\nExample:\n*${prefix + cmd}* 923253617422`);
+    if (!text) return m.reply(`*📛 ENTER THE NUMBER YOU WANT TO ADD*\n\nExample:\n*${prefix + cmd}* 254717263689`);
     if (text.includes('+')) return m.reply(`*📛 ENTER NUMBER WITHOUT +*`);
     if (isNaN(text)) return m.reply(`*📛 ENTER ONLY NUMBERS WITH COUNTRY CODE*`);
 
