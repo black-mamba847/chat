@@ -5,8 +5,8 @@ const stickerCommand = async (m, gss) => {
   const prefix = config.PREFIX;
   const [cmd, arg] = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ') : ['', ''];
 
-  const packname = global.packname || "Sarkar-MD";
-  const author = global.author || "Sarkar-MD";
+  const packname = global.packname || "Chatwise";
+  const author = global.author || "Chatwise";
 
   const validCommands = ['sticker', 's', 'autosticker'];
 
