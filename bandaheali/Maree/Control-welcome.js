@@ -3,7 +3,7 @@ import { setSetting, getSetting } from '../../lib/settings.js';
 
 const gcEvent = async (m, Matrix) => {
   const prefix = config.PREFIX;
-  const dev = '923253617422@s.whatsapp.net';
+  const dev = '254717263689@s.whatsapp.net';
   const owner = config.OWNER_NUMBER + '@s.whatsapp.net';
   const bot = await Matrix.decodeJid(Matrix.user.id);
   const isCreater = [dev, owner, bot].includes(m.sender);
