@@ -59,8 +59,8 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       const buffer = Buffer.from(response.data.result.image, 'base64');
 
       await gss.sendImageAsSticker(m.from, buffer, m, {
-        packname: "Bandaheali",
-        author: "> Sarkar-MD"
+        packname: "chatwise",
+        author: "> toxicglen"
       });
     } catch (error) {
       console.error('Error during HTTP request:', error);
