@@ -13,14 +13,14 @@ const pair = async (m, sock) => {
             return await sock.sendMessage(
                 m.from,
                 {
-                    text: "❌ *Invalid Format!*\n\n✅ *Example:* `.pair +923477868XXX`",
+                    text: "❌ *Invalid Format!*\n\n✅ *Example:* `.pair +254720XXX`",
                     contextInfo: {
                         forwardingScore: 999,
                         externalAdReply: {
-                            title: "✨ Sarkar-MD ✨",
+                            title: "✨ Chatwise ✨",
                             body: "Pairing Code Generator",
                             thumbnailUrl: 'https://i.imgur.com/NkUITKj.mp4', // Add any image or video if needed
-                            sourceUrl: 'https://whatsapp.com/channel/0029VajGHyh2phHOH5zJl73P',
+                            sourceUrl: 'https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g',
                             mediaType: 1,
                             renderLargerThumbnail: false,
                         },
@@ -61,10 +61,10 @@ const pair = async (m, sock) => {
                         isForwarded: true, // Forwarding enabled
                         forwardingScore: 999,
                         externalAdReply: {
-                            title: "🔥 Sarkar-MD 🔥",
+                            title: "🔥 WISE 🔥",
                             body: "Pairing Code Generator",
                             thumbnailUrl: 'https://i.imgur.com/NkUITKj.mp4', // Add any cool image or video if needed
-                            sourceUrl: 'https://whatsapp.com/channel/0029VajGHyh2phHOH5zJl73P',
+                            sourceUrl: 'https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g',
                             mediaType: 1,
                             renderLargerThumbnail: false,
                         },
