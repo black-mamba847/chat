@@ -1,6 +1,6 @@
 <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">CHATWISE BOT</h1>
 </p>
-!-- Glowing Footer -->
+
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
