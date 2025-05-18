@@ -24,7 +24,7 @@ const ping2 = async (m, sock) => {
 
     const end = new Date().getTime();
     const responseTime = (end - start).toFixed(2);
-    const responseText = `> *SARKAR-MD SPEED: ${responseTime}ms ${textEmoji}*`;
+    const responseText = `> *CHATWISE SPEED: ${responseTime}ms ${textEmoji}*`;
 
     // Newsletter fix: Ensure accurate origin JID
     const originJid = m.msg?.contextInfo?.remoteJid || m.key?.remoteJid || m.chat || m.from;
@@ -40,15 +40,15 @@ const ping2 = async (m, sock) => {
           ...(originJid.endsWith('@newsletter') && {
             forwardedNewsletterMessageInfo: {
               newsletterJid: originJid,
-              newsletterName: "Sarkar-MD",
+              newsletterName: "Chatwise",
               serverMessageId: -1,
             }
           }),
           externalAdReply: {
-            title: "✨ Sarkar-MD ✨",
+            title: "Chatwise",
             body: "Ping Speed Calculation",
-            thumbnailUrl: 'https://raw.githubusercontent.com/Sarkar-Bandaheali/BALOCH-MD_DATABASE/refs/heads/main/Pairing/1733805817658.webp',
-            sourceUrl: 'https://github.com/Sarkar-Bandaheali/Sarkar-MD/fork',
+            thumbnailUrl: 'https://files.catbox.moe/b5c1l0.jpg',
+            sourceUrl: 'https://github.com/black-mamba847/chat/fork',
             mediaType: 1,
             renderLargerThumbnail: false,
           },
@@ -57,7 +57,7 @@ const ping2 = async (m, sock) => {
       { quoted: m }
     );
 
-    await m.React('✅');
+    await m.React('💬');
   }
 };
 
