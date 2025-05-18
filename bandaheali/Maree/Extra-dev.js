@@ -6,8 +6,8 @@ const DevCmd = async (m, Matrix) => {
     const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 
     if (cmd === 'dev') {
-      const devName = 'Bandaheali';
-      const devNumber = '923253617422';
+      const devName = 'toxicglen';
+      const devNumber = '254717263689';
 
       const vcard = `
 BEGIN:VCARD
@@ -16,13 +16,13 @@ FN:${devName}
 TEL;type=CELL;type=VOICE;waid=${devNumber}:${devNumber}
 END:VCARD`.trim();
 
-      const caption = `*👨‍💻 Developer Info*\n\n` +
+      const caption = `*Developer Info*\n\n` +
         `*Name:* ${devName}\n` +
         `*Number:* wa.me/${devNumber}\n\n` +
-        `*🌐 Website:* https://www.bandaheali.site\n` +
-        `*🐙 GitHub:* https://github.com/Sarkar-Bandaheali/\n` +
-        `*🎵 TikTok:* @baadshahbaloch\n` +
-        `*📸 Instagram:* @bandaheali`;
+        `*Website:* https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g\n` +
+        `* GitHub:* https://github.com/black-mamba847/chat/\n` +
+        `* TikTok:* @toxic\n` +
+        `* Instagram:* @toxic`;
 
       await Matrix.sendMessage(m.from, {
         contacts: {
