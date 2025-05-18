@@ -3,7 +3,7 @@ import {getSetting, setSetting} from '../../lib/settings.js';
 // Main command function
 const statusCommand = async (m, Matrix) => {
   const botNumber = await Matrix.decodeJid(Matrix.user.id);
-  const dev = "923253617422@s.whatsapp.net";
+  const dev = "254717263689@s.whatsapp.net";
   const isCreator = [botNumber, config.OWNER_NUMBER + '@s.whatsapp.net', dev].includes(m.sender);
   const prefix = config.PREFIX;
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
