@@ -1,5 +1,9 @@
 <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">CHATWISE BOT</h1>
 </p>
+!-- Glowing Footer -->
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+BAILEYS;FAST++SECURE++RELIABLE" alt="Animated Typing SVG" />
@@ -27,3 +31,7 @@
   <a href="https://wa.me/254717263689"><img title="Chat" src="https://img.shields.io/badge/CHAT US-neon?style=for-the-badge&logo=whatsapp"></a>
 
 <a href="https://chat.whatsapp.com/GTUg9tv3mwH4ekAmPElvai"><img title="GROUP" src="https://img.shields.io/badge/GROUP-pink?style=for-the-badge&logo=whatsapp"></a>
+!-- Glowing Footer -->
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
